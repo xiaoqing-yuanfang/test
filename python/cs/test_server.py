@@ -17,10 +17,14 @@ while(True):
                     if(len(data)==0):
                         conn.close()
                         print("normal close")
+                        break
                     else:
                         print("data:",data)
+                else:
+                    print("nodata",data)
             except Exception as e:
                 print(e)
                 conn.close()
                 print("exceptiion close")
+                break
             continue
