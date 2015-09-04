@@ -1,4 +1,0 @@
-0x752997cf	unregister_ldd_driver	/opt/stack/test-git/ko/ldd3/lddbus/lddbus	EXPORT_SYMBOL
-0x5b94c83d	register_ldd_driver	/opt/stack/test-git/ko/ldd3/lddbus/lddbus	EXPORT_SYMBOL
-0xaef48078	register_ldd_device	/opt/stack/test-git/ko/ldd3/lddbus/lddbus	EXPORT_SYMBOL
-0x5e1e0e30	unregister_ldd_device	/opt/stack/test-git/ko/ldd3/lddbus/lddbus	EXPORT_SYMBOL

@@ -1,1 +1,0 @@
-cmd_/opt/stack/test-git/ko/ldd3/misc-modules/kdatasize.ko := ld -r -m elf_x86_64 -T /opt/stack/linux-3.4.108/scripts/module-common.lds --build-id  -o /opt/stack/test-git/ko/ldd3/misc-modules/kdatasize.ko /opt/stack/test-git/ko/ldd3/misc-modules/kdatasize.o /opt/stack/test-git/ko/ldd3/misc-modules/kdatasize.mod.o

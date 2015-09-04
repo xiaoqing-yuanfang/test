@@ -64,3 +64,4 @@ target/
 *.mod
 *.symvers
 .tmp_versions/
+*.order
