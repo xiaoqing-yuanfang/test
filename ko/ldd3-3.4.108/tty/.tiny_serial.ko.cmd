@@ -1,0 +1,1 @@
+cmd_/opt/stack/test-git/ko/ldd3/tty/tiny_serial.ko := ld -r -m elf_x86_64 -T /opt/stack/linux-3.4.108/scripts/module-common.lds --build-id  -o /opt/stack/test-git/ko/ldd3/tty/tiny_serial.ko /opt/stack/test-git/ko/ldd3/tty/tiny_serial.o /opt/stack/test-git/ko/ldd3/tty/tiny_serial.mod.o

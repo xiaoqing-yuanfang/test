@@ -1,0 +1,1 @@
+cmd_/opt/stack/test-git/ko/ldd3/sculld/sculld.o := ld -m elf_x86_64   -r -o /opt/stack/test-git/ko/ldd3/sculld/sculld.o /opt/stack/test-git/ko/ldd3/sculld/main.o /opt/stack/test-git/ko/ldd3/sculld/mmap.o 

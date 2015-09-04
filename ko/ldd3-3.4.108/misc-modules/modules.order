@@ -1,0 +1,11 @@
+kernel//opt/stack/test-git/ko/ldd3/misc-modules/hello.ko
+kernel//opt/stack/test-git/ko/ldd3/misc-modules/hellop.ko
+kernel//opt/stack/test-git/ko/ldd3/misc-modules/seq.ko
+kernel//opt/stack/test-git/ko/ldd3/misc-modules/jit.ko
+kernel//opt/stack/test-git/ko/ldd3/misc-modules/jiq.ko
+kernel//opt/stack/test-git/ko/ldd3/misc-modules/sleepy.ko
+kernel//opt/stack/test-git/ko/ldd3/misc-modules/complete.ko
+kernel//opt/stack/test-git/ko/ldd3/misc-modules/silly.ko
+kernel//opt/stack/test-git/ko/ldd3/misc-modules/faulty.ko
+kernel//opt/stack/test-git/ko/ldd3/misc-modules/kdatasize.ko
+kernel//opt/stack/test-git/ko/ldd3/misc-modules/kdataalign.ko

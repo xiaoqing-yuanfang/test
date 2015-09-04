@@ -1,0 +1,1 @@
+cmd_/opt/stack/test-git/ko/ldd3/misc-modules/hellop.ko := ld -r -m elf_x86_64 -T /opt/stack/linux-3.4.108/scripts/module-common.lds --build-id  -o /opt/stack/test-git/ko/ldd3/misc-modules/hellop.ko /opt/stack/test-git/ko/ldd3/misc-modules/hellop.o /opt/stack/test-git/ko/ldd3/misc-modules/hellop.mod.o
