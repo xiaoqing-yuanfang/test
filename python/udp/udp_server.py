@@ -30,8 +30,8 @@ if __name__ == '__main__':
     q = Queue.LifoQueue()
     thr_1 = threading.Thread(target=thr_recv,args=(q,))
     thr_2 = threading.Thread(target=thr_w2f,args=(q,))
-    thr_1.run()
-    thr_2.run()
+    thr_1.start()
+    thr_2.start()
 
     while(True):
         time.sleep(5)
