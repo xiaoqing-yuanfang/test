@@ -55,3 +55,13 @@ docs/_build/
 
 # PyBuilder
 target/
+
+#kernel ko
+
+*.ko
+*.o
+*.cmd
+*.mod
+*.symvers
+.tmp_versions/
+*.order
