@@ -5,7 +5,13 @@ import time
 
 log = logging.getLogger(__name__)
 class ProcesssTwo(Process):
+    def __init__(self, queue_in):
+        Process.__init__(self)
+        self.queue = queue_in
+        self.num = 0
     def run(self):
         while True:
-            time.sleep(3)
-            log.debug("hello")
+            try:
+                item = self.queue.get()
+            except Exception as e:
+                print(e)
