@@ -56,16 +56,16 @@ func loop() {
 	for {
 		select {
 		case <-ch5:
-			fmt.Println("5")
+			fmt.Println("5:", time.Now().Local())
 			timeAfter5()
 		case <-ch10:
-			fmt.Println("10")
+			fmt.Println("10:", time.Now().Local())
 			timeAfter10()
 		case <-ch30:
-			fmt.Println("30")
+			fmt.Println("30:", time.Now().Local())
 			timeAfter30()
 		case <-ch60:
-			fmt.Println("60")
+			fmt.Println("60:", time.Now().Local())
 			timeAfter60()
 		}
 	}
