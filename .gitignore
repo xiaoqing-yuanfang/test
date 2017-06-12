@@ -65,3 +65,5 @@ target/
 *.symvers
 .tmp_versions/
 *.order
+bin/
+target/
